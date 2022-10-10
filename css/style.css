@@ -1,0 +1,56 @@
+header{
+    background: linear-gradient(#FF0000, #7c1627);
+    padding: 1.4%;
+}
+
+.caixa{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.texto-logo {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 2.2em;
+    color: white;
+    font-family: 'Courgette', cursive;
+    margin: 1% 1% 0 5%;
+}
+
+.imagem-logo{
+    display: inline-block;
+    width: 5%;
+}
+
+nav{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+nav li{
+    display: inline-block;
+    margin: 23px 15px 0 35px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #f5deb3;
+    transition: 0.5s all;
+}
+
+nav li a:hover{
+    color: #FFFF00;
+}
+
+footer {
+    background: darkred;
+    text-align: left;
+    color: #f5deb3;
+    padding: 4%;
+    font-size: 1.2em;
+}

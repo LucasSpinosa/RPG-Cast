@@ -1,0 +1,10 @@
+.cabecalho-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-cabecalho {
+  display: flex;
+  align-items: center;
+}

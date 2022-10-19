@@ -1,0 +1,36 @@
+.cabecalho-principal{
+    background: linear-gradient(#FF0000, #7c1627);
+    padding: 1.4%;
+}
+
+.logo-texto {
+    display: inline-block;
+    font-size: 2.2em;
+    color: white;
+    font-family: 'Courgette', cursive;
+    margin-right: 3%;
+    margin-left: 8%;
+}
+
+.logo-imagem{
+    width: 12%;
+}
+
+
+.cabecalho-navegacao li{
+    display: inline;
+    margin-right: 60px;
+}
+
+.cabecalho-navegacao li a{
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #f5deb3;
+    transition: 0.5s all;
+}
+
+nav li a:hover{
+    color: #FFFF00;
+}
